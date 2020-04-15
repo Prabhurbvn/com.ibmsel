@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75624" started-at="2020-04-14T11:27:55Z" finished-at="2020-04-14T11:29:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="75624" started-at="2020-04-14T11:27:55Z" finished-at="2020-04-14T11:29:11Z">
+      <class name="basics.FbLogin">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:basics.FbLogin@968a59]" name="openBrowser" is-config="true" duration-ms="32484" started-at="2020-04-14T16:57:55Z" finished-at="2020-04-14T16:58:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyTitleofPage()[pri:0, instance:basics.FbLogin@968a59]" name="verifyTitleofPage" duration-ms="139" started-at="2020-04-14T16:59:08Z" finished-at="2020-04-14T16:59:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleofPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:basics.FbLogin@968a59]" name="tearDown" is-config="true" duration-ms="2833" started-at="2020-04-14T16:59:08Z" finished-at="2020-04-14T16:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- basics.FbLogin -->
+      <class name="basics.MyFirstMaven">
+        <test-method status="PASS" signature="verifyGoogle()[pri:0, instance:basics.MyFirstMaven@67ae56]" name="verifyGoogle" duration-ms="40112" started-at="2020-04-14T16:58:28Z" finished-at="2020-04-14T16:59:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGoogle -->
+      </class> <!-- basics.MyFirstMaven -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
